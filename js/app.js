@@ -20,3 +20,4 @@ let sr = ScrollReveal({
 });
 
 sr.reveal(".info");
+sr.reveal(".image");

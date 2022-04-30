@@ -81,6 +81,11 @@ header {
     backdrop-filter: blur(10px);
 }
 
+header.scrolled {
+    background-color: var(--bg-color-transparent);
+    box-shadow: 0 5px 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+}
+
 nav.container {
     display: flex;
     align-items: center;

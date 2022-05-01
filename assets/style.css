@@ -50,6 +50,29 @@ ul {
     list-style: none;
 }
 
+@media screen and (max-width: 480px) {
+    header {
+        padding: 1rem 0;
+    }
+    header .logo {
+        height: 80px;
+        line-height: 80px;
+    }
+    header .nav {
+        display: none;
+    }
+    header .nav-link {
+        display: block;
+        margin: 0.5rem 0;
+    }
+    header .darkmode-btn {
+        margin: 0.5rem 0;
+    }
+    header.scrolled {
+        height: 85px;
+    }
+}
+
 .container {
     position: relative;
     width: 100%;

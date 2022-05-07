@@ -11,7 +11,7 @@ stickyNavbar();
 window.addEventListener('scroll', stickyNavbar);
 
 
-// reveal
+// scrollreveal
 
 let sr = ScrollReveal({
     duration: 2500,
@@ -21,3 +21,7 @@ let sr = ScrollReveal({
 
 sr.reveal(".info");
 sr.reveal(".image");
+
+ScrollReveal().reveal('.about-info');
+ScrollReveal().reveal('.techno');
+ScrollReveal().reveal('.contact');

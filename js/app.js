@@ -25,3 +25,4 @@ sr.reveal(".image");
 ScrollReveal().reveal('.about-info');
 ScrollReveal().reveal('.techno');
 ScrollReveal().reveal('.contact');
+ScrollReveal().reveal('.project-section');

@@ -19,10 +19,18 @@
     --text-color: hsl(var(--hue-1), 17%, 63%);
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        background-color: lightgreen;
-    }
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: var(--bg-color);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--main-color-1);
+    border-radius: 70px;
 }
 
 *,

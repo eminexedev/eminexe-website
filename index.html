@@ -212,7 +212,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact" id="contact">
+          <section class="contact" id="contact">
             <div class="container">
                 <div class="c-info">
                     <h2 class="heading-1">Contact Me</h2>
@@ -220,17 +220,17 @@
                         If you want to contact me, you can send me an email or you can contact me on discord.
 
                 </div>
-                <form action="index.html" class="form">
+                <form action="https://formspree.io/f/xeqnvdae" method="POST" class="form">
                     <div>
                         <i class="py-5 py-6  fa-solid fa-user"></i>
-                        <input type="text" class="f-input" placeholder="Name" required>
+                        <input type="text" class="f-input" placeholder="name" name="name" required>
                     </div>
                     <div><i class="py-5 py-6 fa-solid fa-envelope"></i>
-                        <input type="email" class="f-input" placeholder="codırbirisi@example.com" required>
+                        <input type="email" name="email" class="f-input" placeholder="codırbirisi@example.com" required>
                     </div>
                     <div>
 
-                        <textarea autocomplete="off" rows="5" maxlength="2000" class="f-input" placeholder="Hey mate!"></textarea>
+                        <textarea autocomplete="off" rows="5" maxlength="2000" class="f-input" placeholder="Hey mate!" name="message" required></textarea>
                     </div>
                     <button type="submit" class="s-btn">Send</button>
                 </form>

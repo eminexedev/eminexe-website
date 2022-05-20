@@ -914,6 +914,15 @@ footer .container {
     flex-wrap: wrap;
 }
 
+.info-text {
+    display: flex;
+    color: var(--text-color);
+    font-size: 1rem;
+    padding: 0.13rem 650px;
+    text-align: center;
+    font-weight: 600;
+}
+
 footer .social-media {
     display: flex;
 }

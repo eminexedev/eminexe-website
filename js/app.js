@@ -51,3 +51,8 @@ function changeTheme(isDark) {
 toggle_btn.addEventListener('click', () => {
     changeTheme(!document.body.classList.contains("dark"));
 });
+
+
+document.querySelector("body > main > section.techno > div").style.gap = "3vw";
+document.querySelector("body > main > section.techno > div").style.flexWrap = "wrap";
+document.querySelector("body > main > section.techno > div").style.justifyContent = "center";

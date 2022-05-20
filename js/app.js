@@ -31,18 +31,23 @@ ScrollReveal().reveal('.project-section');
 
 // dark mode
 
-function changeTheme() {
-    if (!document.body.classList.contains("dark")) {
+let firstTheme = localStorage.getItem("dark");
+changeTheme(+firstTheme);
+
+function changeTheme(isDark) {
+    if (isDark) {
         document.body.classList.add("dark");
         toggle_btn.classList.replace("uil-moon", "uil-sun");
+        localStorage.setItem("Theme", "dark");
         console.log("dark mode activated");
     } else {
         document.body.classList.remove("dark");
         toggle_btn.classList.replace("uil-sun", "uil-moon");
+        localStorage.setItem("Theme", "light");
         console.log("dark mode off");
     }
 }
 
 toggle_btn.addEventListener('click', () => {
-    changeTheme();
+    changeTheme(!document.body.classList.contains("dark"));
 });

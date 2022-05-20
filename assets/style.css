@@ -7,6 +7,7 @@
     --hue-1: 257;
     --hue-2: 47;
     --bg-color: hsl(var(--hue-1), 100%, 97%);
+    --ft-color: hsl(var(--hue-1), 100%, 96%);
     --main-color-1: hsl(var(--hue-1), 100%, 60%);
     --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
     --main-color-2: hsl(var(--hue-2), 100%, 61%);
@@ -31,6 +32,7 @@ body {
 
 body.dark {
     --bg-color: hsl(var(--hue-1), 19%, 15%);
+    --ft-color: hsl(var(--hue-1), 19%, 14%);
     --bg-color-1: hsl(var(--hue-1), 21%, 11%);
     --bg-color-2: hsl(var(--hue-1), 23%, 19%);
     --bg-color-3: hsl(var(--hue-1), 23%, 24%);
@@ -833,6 +835,7 @@ header.scrolled .logo {
 /* footer style */
 
 footer {
+    background-color: var(--ft-color);
     padding: 1rem 0;
 }
 

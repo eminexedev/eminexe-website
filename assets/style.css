@@ -334,7 +334,7 @@ header.scrolled .logo {
 }
 
 .area .container {
-    margin: 0 30rem;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: calc(100vh - 120px);
@@ -344,13 +344,13 @@ header.scrolled .logo {
 .image {
     position: relative;
     width: 100%;
-    padding-left: 7rem;
+    padding-left:13rem;
     min-height: calc(100vh + 120px);
 }
 
 .img-person {
-    width: 250px;
-    height: 250px;
+    width: 325px;
+    height: 325px;
     object-fit: cover;
     object-position: center;
     border: 3px solid var(--main-color-2);

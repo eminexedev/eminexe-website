@@ -45,7 +45,7 @@ function update_presence() {
 
 
     if (api.d.discord_status === "dnd") {
-        statusContent.innerHTML = `<span class="w-3 h-3 bg-red-500 rounded-full inline-flex ml-1 mr-2"></span>Dont not Disturb`;
+        statusContent.innerHTML = `<span class="w-3 h-3 bg-red-500 rounded-full inline-flex ml-1 mr-2"></span>Do not Disturb`;
 
     } else if (api.d.discord_status === "idle") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-yellow-500 rounded-full inline-flex ml-1 mr-2"></span>Idle`;
@@ -57,8 +57,8 @@ function update_presence() {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Offline`;
 
     } else {
-        statusContent.innerHTML = `<span class="w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Loading`;
+        statusContent.innerHTML = `<div class="animate-pulse"><i class="fas fa-spinner-third"></i> Loading</div>`;
 
     }
 
-}
+} 

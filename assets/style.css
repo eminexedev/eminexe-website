@@ -919,7 +919,7 @@ footer .container {
     display: flex;
     color: var(--text-color);
     font-size: 1rem;
-    padding: 0.13rem 650px;
+    padding: 0.13rem 1rem;
     text-align: center;
     font-weight: 600;
 }

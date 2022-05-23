@@ -608,6 +608,7 @@ header.scrolled .logo {
     width: 60px;
     height: 50px;
     display: flex;
+    border-radius: 12px;
 }
 
 .js:hover {

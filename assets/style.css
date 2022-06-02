@@ -445,14 +445,6 @@ header.scrolled .logo {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.253);
 }
 
-#tooltiptext {
-    position: absolute;
-    background-color: #323330;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
 
 /* about style */
 

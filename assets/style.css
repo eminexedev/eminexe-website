@@ -344,7 +344,7 @@ header.scrolled .logo {
 .image {
     position: relative;
     width: 100%;
-    padding-left:13rem;
+    padding-left: 13rem;
     min-height: calc(100vh + 120px);
 }
 
@@ -443,6 +443,14 @@ header.scrolled .logo {
     color: var(--bg-color-2);
     border-radius: 20px;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.253);
+}
+
+#tooltiptext {
+    position: absolute;
+    background-color: #323330;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 

@@ -904,7 +904,6 @@
                     .htmll:hover {
                         background-color: #e34c26;
                         color: var(--bg-color-2);
-                        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.253);
                         transition: all 0.3s ease;
                     }
                     
@@ -940,7 +939,6 @@
                     .css:hover {
                         background-color: #2965f1;
                         color: var(--bg-color-2);
-                        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.253);
                         transition: all 0.3s ease;
                     }
                     
@@ -982,7 +980,6 @@
                     .js:hover {
                         background-color: #F0DB4F;
                         color: #323330;
-                        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.253);
                         transition: all 0.3s ease;
                     }
                     
@@ -1023,7 +1020,6 @@
                     .bootstrap:hover {
                         background-color: #563d7c;
                         color: var(--bg-color-2);
-                        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.253);
                         transition: all 0.3s ease;
                     }
                     
@@ -1062,7 +1058,6 @@
                     
                     .react:hover {
                         color: var(--bg-color-2);
-                        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.253);
                         transition: all 0.3s ease;
                     }
                     
@@ -1102,7 +1097,6 @@
                     .nodejs:hover {
                         background-color: #68a063;
                         color: var(--bg-color-2);
-                        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.253);
                         transition: all 0.3s ease;
                     }
                     
@@ -1125,7 +1119,6 @@
                     .discordjs:hover {
                         background-color: #7289da;
                         color: var(--bg-color-2);
-                        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.253);
                         transition: all 0.3s ease;
                     }
                     /* contact style */

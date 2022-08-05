@@ -1117,7 +1117,8 @@
                     }
                     
                     .tailwnd p {
-                        padding-top: 10px;
+                        padding-top: 10px 0;
+                        padding-left: 30px;
                         font-size: 1.3rem;
                         font-weight: 600;
                         letter-spacing: 1px;

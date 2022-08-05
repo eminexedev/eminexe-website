@@ -1117,9 +1117,8 @@
                     }
                     
                     .tailwnd p {
-                        padding: 17px 0;
-                        padding-left: 30px;
-                        font-size: 1.5rem;
+                        padding-top: 10px;
+                        font-size: 1.3rem;
                         font-weight: 600;
                         letter-spacing: 1px;
                         line-height: 1.5;
@@ -1127,14 +1126,13 @@
                     }
                     
                     .tailwnd img {
-                        width: 30px;
-                        height: 30px;
+                        width: 35px;
+                        height: 35px;
                         margin: 0 10px;
                         display: flex;
                     }
                     
                     .tailwnd:hover {
-                        background-color: #68a063;
                         color: var(--bg-color-2);
                         transition: all 0.3s ease;
                     }

@@ -52,7 +52,7 @@ function update_presence() {
     } else if (api.d.discord_status === "Online - on discord status") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-green-500 rounded-full inline-flex ml-1 mr-2"></span>Online`;
 
-    } else if (api.d.discord_status === "Offline - on discord status") {
+    } else if (api.d.discord_status === "Offline on discord") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Offline`;
 
     } else {

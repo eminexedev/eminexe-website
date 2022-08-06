@@ -41,19 +41,21 @@ lanyard.onmessage = function(event) {
 function update_presence() {
     if (statusIcon != null) {
         update_status(api.d.discord_status);
+    } else {
+        setTimeout(update_presence, 1000);
     }
 
 
     if (api.d.discord_status === "dnd") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-red-500 rounded-full inline-flex ml-1 mr-2"></span>Do not Disturb`;
 
-    } else if (api.d.discord_status === "idle") {
+    } else if (api.d.discord_status === "İdle - on discord status") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-yellow-500 rounded-full inline-flex ml-1 mr-2"></span>Idle`;
 
-    } else if (api.d.discord_status === "online") {
+    } else if (api.d.discord_status === "Online - on discord status") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-green-500 rounded-full inline-flex ml-1 mr-2"></span>Online`;
 
-    } else if (api.d.discord_status === "offline") {
+    } else if (api.d.discord_status === "Offline - on discord status") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Offline`;
 
     } else {
@@ -61,4 +63,4 @@ function update_presence() {
 
     }
 
-} 
+}

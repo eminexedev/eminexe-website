@@ -41,10 +41,7 @@ lanyard.onmessage = function(event) {
 function update_presence() {
     if (statusIcon != null) {
         update_status(api.d.discord_status);
-    } else {
-        setTimeout(update_presence, 1000);
     }
-
 
     if (api.d.discord_status === "dnd") {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-red-500 rounded-full inline-flex ml-1 mr-2"></span>Do not Disturb`;

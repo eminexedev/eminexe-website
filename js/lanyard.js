@@ -53,7 +53,7 @@ function update_presence() {
         statusContent.innerHTML = `<span class="w-3 h-3 bg-green-500 rounded-full inline-flex ml-1 mr-2"></span>Online`;
 
     } else if (api.d.discord_status === "offline") {
-        statusContent.innerHTML = `<span class="w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Offline`;
+        statusContent.innerHTML = `<span class="w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Offline - on discord status `;
 
     } else {
         statusContent.innerHTML = `<div class="animate-pulse"><i class="fas fa-spinner-third"></i> Loading</div>`;

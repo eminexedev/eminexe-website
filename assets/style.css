@@ -249,14 +249,7 @@
                             height: auto;
                         }
                         .nav-link {
-                            display: flex;
-                            flex-wrap: wrap;
-                            justify-content: center;
-                            align-items: center;
-                            margin: 1rem 100px;
-                            width: auto;
-                            height: auto;
-                            font-size: 0.40rem;
+                            display: none;
                         }
                         .image.img-person {
                             margin: 0 -90px;
@@ -321,14 +314,7 @@
                             height: auto;
                         }
                         .nav-link {
-                            display: flex;
-                            flex-wrap: wrap;
-                            justify-content: center;
-                            align-items: center;
-                            margin: 1rem 100px;
-                            width: auto;
-                            height: auto;
-                            font-size: 0.40rem;
+                            display: none;
                         }
                         .image {
                             display: flex;

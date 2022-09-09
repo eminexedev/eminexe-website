@@ -209,6 +209,9 @@
                     }
                     
                     @media (max-width: 425px) {
+                        .toggle-btn {
+                            float: left;
+                        }
                         .heading-1 {
                             font-size: 0.85rem;
                         }

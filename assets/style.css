@@ -1227,8 +1227,8 @@
                     
                     .card {
                         cursor: pointer;
-                        width: 75%;
-                        height: 75%;
+                        width: 100%;
+                        height: 100%;
                         border-radius: 9px;
                     }
                     
@@ -1249,7 +1249,7 @@
                     }
                     
                     .p-image img {
-                        width: 75%;
+                        width: 100%;
                         border-radius: 9px;
                     }
                     

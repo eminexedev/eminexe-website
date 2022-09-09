@@ -1057,7 +1057,7 @@
                     }
                     
                     .react:hover {
-                        color: var(--bg-color-2);
+                        background-color: #7d4aff;
                         transition: all 0.3s ease;
                     }
                     

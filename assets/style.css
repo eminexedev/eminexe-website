@@ -1272,7 +1272,7 @@
                         float: left;
                         font-weight: 600;
                         margin: 0 1rem;
-                        margin-bottom: 1rem;
+                        margin-bottom: 0.5rem;
                         background-image: linear-gradient( transparent 0%, transparent 90%, #6D33FF 90%, #6D33FF 100%);
                         background-repeat: no-repeat;
                         background-size: 0% 100%;

@@ -222,8 +222,10 @@
                             font-size: 0.70rem;
                         }
                         .area {
+                            font-size: 0.7rem;
+                            height: 800px;
                             width: 100%;
-                            margin: 0 20px;
+                            margin-left: 60px;
                         }
                         .btn {
                             font-size: 0.55rem;

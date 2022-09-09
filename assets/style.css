@@ -209,7 +209,8 @@
                     }
                     
                     @media (max-width: 425px) {
-                        .toggle-btn {
+                        .toggle-btn,
+                        .darkmode-btn {
                             float: left;
                         }
                         .heading-1 {

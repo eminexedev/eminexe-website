@@ -64,13 +64,13 @@
                         .nav-link {
                             font-size: 0.7rem;
                         }
-                        .area {
+                        .showcase-area {
                             font-size: 0.7rem;
                             padding: 100px 0;
                             width: 100%;
                             margin: 0 20px;
                         }
-                        .area .container {
+                        .showcase-area .container {
                             grid-template-columns: 1fr 400px;
                         }
                         .image {
@@ -115,7 +115,7 @@
                         .text-1 {
                             font-size: 0.40rem;
                         }
-                        .area {
+                        .showcase-area {
                             width: 100%;
                             margin: 0 20px;
                         }
@@ -158,7 +158,7 @@
                         .text-1 {
                             font-size: 0.70rem;
                         }
-                        .area {
+                        .showcase-area {
                             width: 100%;
                             margin: 0 20px;
                         }
@@ -207,45 +207,13 @@
                             font-weight: 500;
                         }
                         .contact .container {
-                            padding: 10rem 10rem;
+                            grid-template-columns: 1fr;
+                            row-gap: 3rem;
                         }
-                        .contact-form {
-                            display: flex;
-                            background-color: var(--bg-color-2);
-                            border-radius: 15px;
-                            padding: 3.5rem 3rem;
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        .form-input {
-                            display: inline-block;
-                            resize: none;
-                            width: 100%;
-                            height: 50px;
-                            border-radius: 15px;
-                            background: var(--bg-color-3);
-                            border: 2px solid var(--bg-color-3);
-                            padding: 0.85rem 1.5rem;
-                            margin-bottom: 1rem;
-                            outline: none;
-                            font-size: 1rem;
-                            font-weight: 500;
-                        }
-                        .contact-form .form-input {
-                            margin-bottom: 1rem;
-                        }
-                        .contact-form .form-input:focus {
-                            border: 2px solid var(--main-color-1);
-                        }
-                        .s-btn {
-                            cursor: pointer;
-                            width: 100%;
-                            height: 50px;
-                            border-radius: 9px;
-                            border: 1px solid var(--main-color-1);
-                            padding: 0.5rem;
-                            margin-bottom: 1rem;
-                        }
+                    }
+                    
+                    @media (max-width: 500px) {
+                        .container {}
                     }
                     
                     @media (max-width: 425px) {
@@ -265,7 +233,7 @@
                         .text-1 {
                             font-size: 0.70rem;
                         }
-                        .area {
+                        .showcase-area {
                             font-size: 0.75rem;
                             height: 800px;
                             width: 100%;
@@ -355,7 +323,7 @@
                         .text-1 {
                             font-size: 0.70rem;
                         }
-                        .area {
+                        .showcase-area {
                             font-size: 0.7rem;
                             height: 800px;
                             width: 100%;
@@ -462,7 +430,7 @@
                         .text-1 {
                             font-size: 0.70rem;
                         }
-                        .area {
+                        .showcase-area {
                             font-size: 0.7rem;
                             height: 800px;
                             width: 100%;
@@ -798,13 +766,13 @@
                     }
                     /* area style */
                     
-                    .area {
+                    .showcase-area {
                         padding: 220px 0;
                         width: 100%;
                         overflow: hidden;
                     }
                     
-                    .area .container {
+                    .showcase-area .container {
                         margin: auto;
                         display: grid;
                         grid-template-columns: repeat(2, 1fr);
@@ -868,10 +836,6 @@
                         font-weight: 500;
                         line-height: 1.5;
                         margin: 1.5rem 0;
-                    }
-                    
-                    .area .heading {
-                        margin-bottom: 0.7rem;
                     }
                     
                     .cta {

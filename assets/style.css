@@ -226,7 +226,7 @@
                             font-size: 0.70rem;
                         }
                         .area {
-                            font-size: 0.7rem;
+                            font-size: 0.75rem;
                             height: 800px;
                             width: 100%;
                             margin-left: 90px;
@@ -329,6 +329,9 @@
                         .img-person {
                             width: 900px;
                             height: 600px;
+                        }
+                        .contact-form {
+                            width: 100%;
                         }
                     }
                     

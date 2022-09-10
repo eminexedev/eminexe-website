@@ -1231,6 +1231,29 @@
                         color: var(--bg-color-2);
                         transition: all 0.3s ease;
                     }
+                    
+                    .github {
+                        font-size: 100px;
+                        padding-top: 10px;
+                        font-weight: 600;
+                        text-align: center;
+                        align-items: center;
+                        font-size: 1.2rem;
+                        width: 200px;
+                        height: 50px;
+                        display: block;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-radius: 9px;
+                        background-color: var(--main-color-1);
+                        color: var(--bg-color-3);
+                    }
+                    
+                    .github:hover {
+                        background-color: rgb(236, 236, 236);
+                        color: black;
+                        transition: all 0.3s ease;
+                    }
                     /* contact style */
                     
                     .contact .container {

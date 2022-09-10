@@ -263,6 +263,14 @@
                             min-height: 100%;
                             min-width: 100%;
                         }
+                        .contact-form {
+                            display: flex;
+                            background-color: var(--bg-color-2);
+                            border-radius: 15px;
+                            padding: 3.5rem 3rem;
+                            display: flex;
+                            flex-direction: column;
+                        }
                     }
                     
                     @media (max-width: 375px) {
@@ -429,7 +437,12 @@
                             display: none;
                         }
                         .contact-form {
-                            max-width: 100%;
+                            display: flex;
+                            background-color: var(--bg-color-2);
+                            border-radius: 15px;
+                            padding: 3.5rem 3rem;
+                            display: flex;
+                            flex-direction: column;
                         }
                     }
                     

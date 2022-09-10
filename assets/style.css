@@ -423,6 +423,9 @@
                         .darkmode-btn {
                             display: none;
                         }
+                        .contact-form {
+                            max-width: 100%;
+                        }
                     }
                     
                      ::-webkit-scrollbar {

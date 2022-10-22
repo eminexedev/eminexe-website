@@ -44,6 +44,13 @@
                     /* responsive */
                     /* ------------- 1000px ------------ */
                     
+                    @media screen and (max-width: 600px) {
+                        .hamburger-menu {
+                            left: 0;
+                            right: 0;
+                        }
+                    }
+                    
                     @media (max-width: 1024px) {
                         .logo {
                             font-size: 1.5rem;
@@ -212,10 +219,6 @@
                         }
                     }
                     
-                    @media (max-width: 500px) {
-                        .container {}
-                    }
-                    
                     @media (max-width: 425px) {
                         .toggle-btn,
                         .darkmode-btn {
@@ -314,6 +317,14 @@
                     }
                     
                     @media (max-width: 375px) {
+                        .hamburger-menu {
+                            left: 0;
+                            right: 0;
+                        }
+                        header,
+                        .logo {
+                            height: 100px;
+                        }
                         .heading-1 {
                             font-size: 0.85rem;
                         }
@@ -421,6 +432,13 @@
                     }
                     
                     @media (max-width: 320px) {
+                        .hamburger-menu {
+                            left: 0;
+                            right: 0;
+                        }
+                        header.logo {
+                            height: 100px;
+                        }
                         .heading-1 {
                             font-size: 0.85rem;
                         }
@@ -495,9 +513,6 @@
                         .img-person {
                             width: 900px;
                             height: 600px;
-                        }
-                        .hamburger {
-                            display: block;
                         }
                         .nav-link {
                             display: none;
@@ -662,6 +677,11 @@
                         margin: 0 auto;
                     }
                     /* navbar */
+                    
+                    .hamburger-menu {
+                        display: flex;
+                        font-size: 30px;
+                    }
                     
                     header {
                         position: fixed;

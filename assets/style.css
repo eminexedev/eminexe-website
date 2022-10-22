@@ -679,7 +679,7 @@
                     /* navbar */
                     
                     .hamburger-menu {
-                        display: flex;
+                        display: none;
                         font-size: 30px;
                     }
                     

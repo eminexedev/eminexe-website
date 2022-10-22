@@ -13,7 +13,7 @@ lanyard.onopen = function() {
         JSON.stringify({
             op: 2,
             d: {
-                subscribe_to_id: "",
+                subscribe_to_id: "685560149381087248",
             },
         })
     );

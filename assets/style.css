@@ -994,8 +994,7 @@
                     }
                     
                     .htmll:hover {
-                        background-color: #e34c26;
-                        color: var(--bg-color-2);
+                        background-color: #7d4aff;
                         transition: all 0.3s ease;
                     }
                     
@@ -1029,9 +1028,8 @@
                     }
                     
                     .css:hover {
-                        background-color: #2965f1;
-                        color: var(--bg-color-2);
-                        transition: all 0.3s ease;
+                       background-color: #7d4aff;
+                       transition: all 0.3s ease;
                     }
                     
                     .js {
@@ -1070,8 +1068,7 @@
                     }
                     
                     .js:hover {
-                        background-color: #F0DB4F;
-                        color: #323330;
+                        background-color: #7d4aff;
                         transition: all 0.3s ease;
                     }
                     
@@ -1110,8 +1107,7 @@
                     }
                     
                     .bootstrap:hover {
-                        background-color: #563d7c;
-                        color: var(--bg-color-2);
+                        background-color: #7d4aff;
                         transition: all 0.3s ease;
                     }
                     
@@ -1187,8 +1183,7 @@
                     }
                     
                     .nodejs:hover {
-                        background-color: #68a063;
-                        color: var(--bg-color-2);
+                        background-color: #7d4aff;
                         transition: all 0.3s ease;
                     }
                     
@@ -1247,8 +1242,7 @@
                     }
                     
                     .discordjs:hover {
-                        background-color: #7289da;
-                        color: var(--bg-color-2);
+                        background-color: #7d4aff;
                         transition: all 0.3s ease;
                     }
                     
@@ -1270,8 +1264,7 @@
                     }
                     
                     .github:hover {
-                        background-color: rgb(236, 236, 236);
-                        color: black;
+                        background-color: #7d4aff;
                         transition: all 0.3s ease;
                     }
                     
@@ -1306,6 +1299,12 @@
                         width: 40px;
                         height: 30px;
                     }
+
+                    .figma:hover{
+                        background-color: #7d4aff;
+                        transition: all 0.3s ease; 
+                    }
+
                     /* contact style */
                     
                     .contact .container {

@@ -230,17 +230,15 @@
                         .heading-2 {
                             font-size: 1.3rem;
                         }
+                        .container {
+                            padding-right: 50%;
+                            padding-left: 50%;
+                        }
                         .img-person {
                             display: none;
                         }
                         .text-1 {
                             font-size: 0.70rem;
-                        }
-                        .showcase-area {
-                            font-size: 0.75rem;
-                            height: 800px;
-                            width: 100%;
-                            margin-left: 90px;
                         }
                         .btn {
                             font-size: 0.55rem;
@@ -316,10 +314,24 @@
                         }
                     }
                     
+                    @media (max-width: 414px) {
+                        .showcase-area {
+                            font-size: 0.7rem;
+                            height: 800px;
+                            width: 100%;
+                            margin-left: 50px;
+                            margin-right: 50px;
+                        }
+                        .toggle-btn,
+                        .darkmode-btn {
+                            float: left;
+                        }
+                    }
+                    
                     @media (max-width: 375px) {
-                        .hamburger-menu {
-                            left: 0;
-                            right: 0;
+                        .darkmode-btn,
+                        .toggle-btn {
+                            display: none;
                         }
                         header,
                         .logo {
@@ -372,22 +384,18 @@
                             flex-wrap: wrap;
                             justify-content: center;
                             align-items: center;
-                            margin: 1rem 100px;
-                            width: auto;
-                            height: auto;
+                            margin: 20px 100px;
+                            width: 30px;
+                            height: 80px;
                         }
                         .nav-link {
                             display: none;
                         }
                         .image {
-                            display: flex;
-                            margin: 0 -90px;
-                            width: 800px;
-                            height: 300px;
+                            display: none;
                         }
                         .img-person {
-                            width: 900px;
-                            height: 600px;
+                            display: none;
                         }
                         .contact .container {
                             padding: 10rem 10rem;
@@ -432,6 +440,10 @@
                     }
                     
                     @media (max-width: 320px) {
+                        .toggle-btn.darkmode-btn {
+                            display: flex;
+                            float: left;
+                        }
                         .hamburger-menu {
                             left: 0;
                             right: 0;
@@ -515,12 +527,6 @@
                             height: 600px;
                         }
                         .nav-link {
-                            display: none;
-                        }
-                        .toggle-btn {
-                            display: none;
-                        }
-                        .darkmode-btn {
                             display: none;
                         }
                         .contact .container {
@@ -1028,8 +1034,8 @@
                     }
                     
                     .css:hover {
-                       background-color: #7d4aff;
-                       transition: all 0.3s ease;
+                        background-color: #7d4aff;
+                        transition: all 0.3s ease;
                     }
                     
                     .js {
@@ -1299,12 +1305,11 @@
                         width: 40px;
                         height: 30px;
                     }
-
-                    .figma:hover{
+                    
+                    .figma:hover {
                         background-color: #7d4aff;
-                        transition: all 0.3s ease; 
+                        transition: all 0.3s ease;
                     }
-
                     /* contact style */
                     
                     .contact .container {

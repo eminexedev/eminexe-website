@@ -3,7 +3,7 @@ const lanyard = new WebSocket("wss://api.lanyard.rest/socket");
 
 var statusIcon = document.getElementById("statusIcon");
 var statusContent = document.getElementById("statusContent");
-
+var spotfystat = document.getElementById("spotfystatus");
 
 var api = {};
 var received = false;
@@ -38,6 +38,7 @@ lanyard.onmessage = function(event) {
     }
 };
 
+
 function update_presence() {
     if (statusIcon != null) {
         update_status(api.d.discord_status);
@@ -59,5 +60,14 @@ function update_presence() {
         statusContent.innerHTML = `<div class="animate-pulse"><span class="stat-text w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Loading.....</span> </div>`;
 
     }
+
+    if (api.d.listening_to_spotify === true) {
+        spotfystat.innerHTML = `<span><p> Listening to Spotify </p><p> ${api.d.spotify.song} </p><p> ${api.d.spotify.artist} </p></span>`;
+    } else {
+        spotfystat.innerHTML = `<span><p> <i class="fa-brands fa-spotify"></i> I don't listen to Spotify.</p></span> `;
+    }
+
+
+
 
 }

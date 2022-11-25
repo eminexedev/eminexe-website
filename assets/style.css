@@ -1362,7 +1362,6 @@
                     .prj-title {
                         text-align: center;
                         color: var(--heading-color);
-                        text-transform: uppercase;
                         font-size: 1.5rem;
                         letter-spacing: 1px;
                         padding: 0.13rem 0.75rem;

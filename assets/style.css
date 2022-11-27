@@ -982,6 +982,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-1);
+                        cursor: pointer;
                     }
                     
                     .htmll img {
@@ -1016,6 +1017,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-2);
+                        cursor: pointer;
                     }
                     
                     .css p {
@@ -1052,12 +1054,13 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .js p {
-                        padding: 7px 0;
-                        padding-left: 40px;
-                        font-size: 1.5rem;
+                        padding: 10px 0;
+                        padding-left: 50px;
+                        font-size: 1.3rem;
                         font-weight: 600;
                         letter-spacing: 1px;
                         line-height: 1.5;
@@ -1092,11 +1095,12 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .bootstrap p {
                         padding: 7px 0;
-                        padding-left: 30px;
+                        padding-left: 45px;
                         font-size: 1.5rem;
                         font-weight: 500;
                         letter-spacing: 1px;
@@ -1107,9 +1111,10 @@
                     .bootstrap img {
                         padding: 10px 10;
                         margin: -10px;
-                        width: 60px;
+                        width: 50px;
                         height: 50px;
                         display: flex;
+                        border-radius: 9px;
                     }
                     
                     .bootstrap:hover {
@@ -1131,6 +1136,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .react p {
@@ -1169,6 +1175,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .nodejs p {
@@ -1207,6 +1214,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .tailwnd p {
@@ -1245,6 +1253,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .discordjs:hover {
@@ -1267,6 +1276,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .github:hover {
@@ -1289,6 +1299,7 @@
                         border-radius: 9px;
                         background-color: var(--main-color-1);
                         color: var(--bg-color-3);
+                        cursor: pointer;
                     }
                     
                     .figma p {

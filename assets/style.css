@@ -803,7 +803,7 @@
                         display: grid;
                         grid-template-columns: repeat(2, 1fr);
                         height: calc(100vh - 120px);
-                        max-height: 200px;
+                        max-height: 220px;
                     }
                     
                     .image {
@@ -853,6 +853,13 @@
                         font-weight: 500;
                         font-family: 'Playfair Display', serif;
                         line-height: 1.3;
+                    }
+                    
+                    .headline-info {
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        color: var(--text-color);
+                        line-height: 1.5;
                     }
                     
                     .text-1 {

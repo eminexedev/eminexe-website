@@ -19,7 +19,7 @@ let sr = ScrollReveal({
     origin: "bottom",
 });
 
-sr.reveal(".info");
+sr.reveal(".headline-info");
 sr.reveal(".image");
 
 

@@ -4,6 +4,7 @@ const lanyard = new WebSocket("wss://api.lanyard.rest/socket");
 var statusIcon = document.getElementById("statusIcon");
 var statusContent = document.getElementById("statusContent");
 var spotfystat = document.getElementById("spotfystatus");
+var activitystatus = document.getElementById("activitystatus");
 
 var api = {};
 var received = false;
@@ -67,7 +68,12 @@ function update_presence() {
         spotfystat.innerHTML = `<span><p> <i class="fa-brands fa-spotify"></i> I don't listen to Spotify.</p></span> `;
     }
 
-
-
+    if (api.d.activities.length > 0) {
+        if (api.d.activities[0].name === "Visual Studio Code") {
+            activitystatus.innerHTML = `<span class="inline-flex ml-1 mr-2"></span>Editing: ${api.d.activities[0].details} - on Visual Studio Code`;
+        } else {
+            activitystatus.innerHTML = `<span class="inline-flex ml-1 mr-2"></span>I am not doing anything right now.`;
+        }
+    }
 
 }

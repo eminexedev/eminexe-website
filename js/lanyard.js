@@ -28,7 +28,7 @@ setInterval(() => {
             })
         );
     }
-}, 40000);
+}, 50000);
 
 lanyard.onmessage = function(event) {
     received = true;

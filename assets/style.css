@@ -602,9 +602,42 @@
                         font-family: 'Poppins', sans-serif;
                     }
                     
-                     ::selection {
-                        background-color: hsl(var(--hue-1), 100%, 60%);
-                        color: #fff;
+                    .wrapper {
+                        display: none;
+                        z-index: 1000;
+                        position: absolute;
+                        width: 150px;
+                        border-radius: 10px;
+                        background-color: white;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                    }
+                    
+                    .wrapper.visible {
+                        display: block;
+                    }
+                    
+                    .wrapper .w-menu {
+                        padding: 10px 12px;
+                    }
+                    
+                    .w-content .w-item {
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        list-style: none;
+                        font-size: 15px;
+                        height: 45px;
+                        border-radius: 5px;
+                        margin-bottom: 2px;
+                        padding: 0 7px;
+                    }
+                    
+                    .w-content .w-item:hover {
+                        background-color: #f2f2f2;
+                    }
+                    
+                    .w-content .w-item span {
+                        font-size: 15px;
                     }
                     
                     w-3 {
@@ -695,7 +728,6 @@
                         left: 0;
                         width: 100%;
                         height: 100px;
-                        background-color: var(--bg-color-1);
                         z-index: 10;
                         transition: 0.3s;
                     }
@@ -703,7 +735,8 @@
                     header.scrolled {
                         background-color: var(--bg-color-transparent);
                         box-shadow: 0 5px 5px 20px 0.1px rgba(0, 0, 0, 0.1);
-                        backdrop-filter: blur(10px);
+                        backdrop-filter: blur(14px);
+                        transition: 0.3s;
                     }
                     
                     nav.container {

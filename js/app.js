@@ -1,6 +1,7 @@
 const header = document.querySelector('header');
 const section = document.querySelector('section');
 const toggle_btn = document.querySelector('.toggle-btn');
+const contextMenu = document.querySelector(".wrapper");
 
 function stickyNavbar() {
     header.classList.toggle("scrolled", window.pageYOffset > 0);
@@ -39,12 +40,10 @@ function changeTheme(isDark) {
         document.body.classList.add("dark");
         toggle_btn.classList.replace("uil-moon", "uil-sun");
         localStorage.setItem("Theme", "dark");
-        console.log("dark mode activated");
     } else {
         document.body.classList.remove("dark");
         toggle_btn.classList.replace("uil-sun", "uil-moon");
         localStorage.setItem("Theme", "light");
-        console.log("dark mode off");
     }
 }
 
@@ -56,3 +55,28 @@ toggle_btn.addEventListener('click', () => {
 document.querySelector("body > main > section.techno > div").style.gap = "3vw";
 document.querySelector("body > main > section.techno > div").style.flexWrap = "wrap";
 document.querySelector("body > main > section.techno > div").style.justifyContent = "center";
+
+
+
+// context menu
+
+
+
+
+document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+
+    const { clientX: mouseX, clientY: mouseY } = event;
+
+    contextMenu.style.left = `${mouseX}px`;
+    contextMenu.style.top = `${mouseY}px`;
+    contextMenu.classList.add("visible");
+
+
+    document.addEventListener("click", (e) => {
+        if (e.target.offsetParent !== contextMenu) {
+            contextMenu.classList.remove("visible");
+        }
+    });
+
+});

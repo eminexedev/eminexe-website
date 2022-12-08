@@ -604,8 +604,8 @@
                     
                     .wrapper {
                         display: none;
-                        z-index: 1000;
-                        position: absolute;
+                        z-index: 1;
+                        position: fixed;
                         width: 150px;
                         border-radius: 10px;
                         background-color: white;

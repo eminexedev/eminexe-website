@@ -14,7 +14,7 @@ lanyard.onopen = function() {
         JSON.stringify({
             op: 2,
             d: {
-                subscribe_to_id: "685560149381087248",
+                subscribe_to_id: "389071682649849868",
             },
         })
     );
@@ -28,7 +28,7 @@ setInterval(() => {
             })
         );
     }
-}, 50000);
+}, 40000);
 
 lanyard.onmessage = function(event) {
     received = true;
@@ -62,11 +62,14 @@ function update_presence() {
 
     }
 
+
     if (api.d.listening_to_spotify === true) {
         spotfystat.innerHTML = `<span> <p> <i class="fa-brands fa-spotify"></i> Listening to Spotify </p>  <p> Song: ${api.d.spotify.song} </p> <p> Artist: ${api.d.spotify.artist} </p></span>`;
     } else {
         spotfystat.innerHTML = `<span><p> <i class="fa-brands fa-spotify"></i> I don't listen to Spotify.</p></span> `;
     }
+
+
 
     if (api.d.activities.length === 1) {
         if (api.d.activities[0].name === "Visual Studio Code") {

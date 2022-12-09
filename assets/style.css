@@ -29,6 +29,7 @@
                         --text-color: hsl(var(--hue-1), 17%, 63%);
                     }
                     
+
                     body.dark {
                         --bg-color: hsl(var(--hue-1), 19%, 15%);
                         --ft-color: hsl(var(--hue-1), 19%, 14%);

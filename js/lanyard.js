@@ -62,6 +62,11 @@ function update_presence() {
 
     }
 
+    if (api.d.listening_to_spotify === true) {
+        spotfystat.innerHTML = `<span><p> Listening to Spotify </p><p> ${api.d.spotify.song} </p><p> ${api.d.spotify.artist} </p></span>`;
+    } else {
+        spotfystat.innerHTML = `<span><p>I don't listen to Spotify.</p></span> `;
+    }
 
     if (api.d.listening_to_spotify === true) {
         spotfystat.innerHTML = `<span> <p> <i class="fa-brands fa-spotify"></i> Listening to Spotify </p>  <p> Song: ${api.d.spotify.song} </p> <p> Artist: ${api.d.spotify.artist} </p></span>`;
@@ -71,12 +76,6 @@ function update_presence() {
 
 
 
-    if (api.d.activities.length === 1) {
-        if (api.d.activities[0].name === "Visual Studio Code") {
-            activitystatus.innerHTML = `<span class="inline-flex ml-1 mr-2"></span>Editing: ${api.d.activities[0].details} - on Visual Studio Code`;
-        } else {
-            activitystatus.innerHTML = `<span class="inline-flex ml-1 mr-2"></span>I am not doing anything right now.`;
-        }
-    }
+
 
 }

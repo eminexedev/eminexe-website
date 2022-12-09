@@ -60,7 +60,11 @@ document.querySelector("body > main > section.techno > div").style.justifyConten
 
 // context menu
 
-
+const event2 = {
+    viewsSource: () => {
+        window.open("https://github.com/eminexedev/eminexe-website", "_blank");
+    },
+};
 
 
 document.addEventListener("contextmenu", (event) => {

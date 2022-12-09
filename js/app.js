@@ -60,11 +60,6 @@ document.querySelector("body > main > section.techno > div").style.justifyConten
 
 // context menu
 
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of b4ac571 (fx)
-
 
 document.addEventListener("contextmenu", (event) => {
     event.preventDefault();

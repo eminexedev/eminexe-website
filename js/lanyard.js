@@ -68,7 +68,7 @@ function update_presence() {
         spotfystat.innerHTML = `<span><p> <i class="fa-brands fa-spotify"></i> I don't listen to Spotify.</p></span> `;
     }
 
-    if (api.d.activities.length === 1) {
+    if (api.d.activities === true) {
         if (api.d.activities.name === "Visual Studio Code") {
             activitystatus.innerHTML = `<span class="inline-flex ml-1 mr-2"></span>Editing: ${api.d.activities[0].details} - on Visual Studio Code`;
         } else {
